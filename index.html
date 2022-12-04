@@ -1,47 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-<meta charset="UTF-8">
-<title>Shymkent</title>
-
-<style>
-body { 
-	background-color: black;
-	text-align:  center;
-	color:  white;
-	font-family: Arial, Helvetica, sans-serif;
-	}
-</style>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamila Zhexekeyeva / Frontend Developer</title>
+    <script src="https://kit.fontawesome.com/5552f09118.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/light.css" id="theme-link">
 </head>
 <body>
-
-<h1>My hometown Shymkent</h1>
-
-<h2>Content Menu</h2>
-<hr> 
-
-<!–I used Wikipedia template of describing places. I created new html to navigate within this html website. By clicking it opens new webpage, but I need to change the color so it is permanent. So in the next step I would like to learn how to change color for used and unused links-->
-
-<ul style="text-align:left;">
-	<li>General</li>
-	<li><a href="History1.html">History</a></li>
-	<li><a href="Population2.html">Population</a></li>
-	<li><a href="Places3.html">Places</a></li>
-</ul>
-<hr>
-
-<h2> General </h2>
-<p>The third largest city in the country – Shymkent is in the south of Kazakhstan. <br>This is one of the largest industrial and commercial centers of the Republic, located relatively close to the borders with Uzbekistan and Kyrgyzstan, as well as their capitals - <b>Tashkent</b> and <b>Bishkek</b>.</p>
-
-<img src="shymkent.jpg" alt="shymkent" width="500" height="300">
-<p>Photo made by tourists</p>
-<hr> 
-<h2>Source</h2>
-<hr> 
-<p>For more detailed information about this amazingly warm city, please visit primary source of this website:</p>
-
-<a href="https://www.advantour.com/kazakhstan/shymkent.htm">Visit Original Source</a>
-
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="index.html" class="header-logo">
+                    <i class="fa-brands fa-codepen"></i>
+                    <p> 
+                        Kamila Zhexekeyeva
+                    </p>
+                </a>
+                <nav class="nav">
+                    <a href="pages/uses.html" class="nav-link">Work</a>
+                    <a href="pages/about.html" class="nav-link">About Me</a>
+                    <a href="#" class="nav-link" id="theme-button">
+                        <i class="fa-solid fa-paint-roller"></i>
+                    </a>
+                </nav>
+                <div class="header__menu" id="menu">
+                    <span></span>
+                </div>
+                <div class="header__mob-wrp">
+                    <div class="menu__wrapper">
+                        <div class="menu__item">
+                            <a href="index.html" class="menu__link"><i class="fa-solid fa-house-chimney"></i>
+                                Home</a>
+                        </div>
+                        <div class="menu__item">
+                            <a href="pages/uses.html" class="menu__link"><i class="fa-solid fa-code"></i> Works</a>
+                        </div>
+                        <div class="menu__item">
+                            <a href="pages/about.html" class="menu__link"><i
+                                    class="fa-regular fa-face-smile"></i>About Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-section">
+            <div class="container">
+                <div class="main-wrapper">
+                    <div class="main-content">
+                        <h1 class="main-heading">
+                            Hello, my name is Kamila Zhexekeyeva.
+                        </h1>
+                        <h2 class="main-subheading">
+                            I'm a Frontend Developer
+                        </h2>
+                        <h3>
+                            My experience extends to the development of scripts, the creation of bots, and small indie games.
+                        </h3>
+                        <div class="button-wrapper">
+                            <p>LATEST POSTS</p>
+                            <button class="btn">
+                                <a href="https://github.com/Zhexekeyeva">
+                                    Github
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="main-img">
+                        <img src="images/Kamila-main.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-item">
+                    ©Kamila Zhexekeyeva 2022
+                </div>
+                <div class="footer-nav">
+                    <a href="https://github.com/Zhexekeyeva" class="footer-link" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kamila-zhexekeyeva/" class="footer-link" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:zhexekeyeva.k@gmail.com" class="footer-link" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="tel:+77070255765" class="footer-link" target="_blank">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>

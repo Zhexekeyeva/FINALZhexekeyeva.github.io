@@ -1,0 +1,32 @@
+body{
+    background: #607685e2;
+    color: #E9F7FF;
+}
+a{
+    color: #E9F7FF;
+}
+.header-logo i {
+    color: #8dded6;
+}
+.nav i {
+    color: #8dded6;
+}
+.nav-link:hover{
+color: #8dded6;
+}
+.main-subheading{
+    color: #8dded6;
+}
+.btn {
+    color: white;
+    border: 1px solid white;
+}
+.footer {
+    border-top: 1px solid rgb(124, 124, 124);
+}
+.footer-link{
+    transition: all 0.3s;
+}
+.footer-link:hover{
+    color: #8dded6;
+}
